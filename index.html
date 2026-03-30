@@ -1,291 +1,240 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Estudio Jurídico & Notarial – Pera & Barthe</title>
-  <meta name="description" content="Estudio Jurídico & Notarial. Asesoramiento legal y servicios notariales en derecho civil, laboral, familia y más." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Estudio Jurídico & Notarial</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Header / Nav -->
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="#inicio">
-        <div class="logo" aria-hidden="true">
-            <img src="logo.jpeg" alt="Logo balanza" style="height: 48px;" />
-        </div>
-        <div class="brand-text">
-          <span class="brand-title">Dra. Belen Pera & Esc. Milena Barthe</span>
-          <span class="brand-subtitle">Estudio Jurídico & Notarial</span>
-        </div>
-      </a>
 
-      
-       <input type="checkbox" id="menu-toggle" hidden>
-
-    <!-- HAMBURGUESA (ya la tenías, no la borres) -->
-    <label for="menu-toggle" class="hamburger" aria-hidden="true">
-      <span></span>
-    </label>
-
-      <nav class="menu" aria-label="Principal">
-        
-        <a href="#sobre-nosotras">Sobre nosotras</a>
-        <a href="#servicios-juridicos">Servicios Juridicos</a>
-        <a href="#servicios-notariales">Servicios Notariales</a>
-        <a href="#contacto" class="btn">Contacto</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section id="inicio" class="section brand-bg">
-    <div class="container hero-inner">
-      <div class="hero-copy">
-        <h1>Servicios legales y notariales con excelencia y compromiso.</h1>
-        <p>En P&B trabajamos en conjunto para brindar soluciones jurídicas y notariales, enfocadas en la eficiencia y satisfacción de nuestros clientes.</p>
-        <div class="cta-row">
-          <a href="#contacto" class="btn btn-primary">Reserva tu consulta</a>
-          
-        </div>
-        
-      </div>
-      <div class="hero-card" role="img" aria-label="Imagen alusiva a la justicia">
-        <img src="tarjeta.jpeg" alt="Logo balanza" />
+<header class="header">
+  <div class="container nav">
+    <div class="brand">
+      <img src="imagenes/logoGrande.jpeg" class="logo-img"/>
+      <div>
+        <span class="brand-title">Estudio Jurídico & Notarial</span>
+        <span class="brand-subtitle">Pera · Marandino · Yarto · Barthe</span>
       </div>
     </div>
-  </section>
 
-  <!-- Seccion abogacia -->
-  <section id="servicios-juridicos" class="section beige">
-    <div class="container">
-      <h2>Servicios Juridicos</h2>
-      
-      <div class="grid-3">
-        <article class="card">
-          <h3>Familia // Familia Especializada:</h3>
-          <p>Divorcios, uniones concubinarias, tenencia y régimen de visitas, pensiones alimenticias, adopciones, autorización de viaje y otras medidas urgentes, violencia doméstica, violencia de género, procesos CNA.</p>
-        </article>
-        <article class="card">
-          <h3>Civil</h3>
-          <p>Sucesiones, contratos, daños y perjuicios, responsabilidad civil,  juicios ejecutivos, desalojos y accidentes de tránsito.</p>
-        </article>
-        <article class="card">
-          <h3>Laboral</h3>
-          <p>Solución de conflictos individuales y colectivos de trabajo, gestiones ante el Ministerio de Trabajo y de Seguridad Social, defensa en juicios laborales, negociación y redacción de contratos de trabajo, acuerdos en caso de extinción de la relación laboral.</p>
-        </article>
-        <article class="card">
-          <h3>Penal</h3>
-          <p>Acompañamiento en todo el proceso penal, investigación previa, juicio oral y ejecución de la pena.</p>
-        </article>
-        <article class="card">
-          <h3>Administrativo </h3>
-          <p>Asesoramiento y representación en materia de recursos administrativos, contencioso administrativo, contencioso reparatorio, acciones de amparo, acciones de inconstitucionalidad de las leyes, gestiones ante la Administración y ante el Banco de Previsión Social (B.P.S.).</p>
-        </article>
-        <article class="card">
-          <h3>Residencias y ciudadanías uruguayas</h3>
-          <p>Residencias permanentes y temporarias MERCOSUR, residencias legales definitivas, asesoramiento para la obtención de documento de identidad y pasaporte uruguayo, residencia fiscal, ciudadanía legal uruguaya.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  
-  <!-- Seccion escibania -->
-  <section id="servicios-notariales" class="section brand-bg">
-    <div class="container">
-      <h2>Servicios notariales</h2>
-      <div class="grid-3">
-        <article class="card">
-          <h3>Títulos de inmuebles y de automotores.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Arrendamientos</h3>
-         
-        </article>
-        <article class="card">
-          <h3>Hipotecas y prendas (constitución y cancelación) entre privados e instituciones financieras.</h3>
-         
-        </article>
-        <article class="card">
-          <h3>Leasing</h3>
-         </article> 
-        <article class="card">
-          <h3>Sociedades comerciales: constitución, reformas, declaratorias ley 17.904, comunicaciones al Banco Central del Uruguay (B.C.U.), compraventa de acciones, etc..</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Poderes generales y especiales.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Certificados y testimonios notariales.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Protocolización de documentos.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Sucesiones.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Testamentos.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Particiones.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Cesión de Derechos Hereditarios.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Capitulaciones matrimoniales y convenciones concubinarias.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Reglamento de Copropiedad.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Elaboración de contratos en general.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Legalizaciones de documentos.</h3>
-          
-        </article>
-        <article class="card">
-          <h3>Constatación de situaciones mediante actas notariales (notificaciones, constataciones, intimaciones, sorteos).</h3>
-          
-        </article>
-      </div>
-    </div>
-  </section>
-  <!-- About -->
-  <section id="sobre-nosotras" class="section beige">
-    <div class="container about-grid">
-      <article class="about-card">
-        <div class="about-photo1" role="img" aria-label="Foto Dra. Belen Pera">
-            <img src="fotoBelen.jpeg" alt="">
-        </div>
-        <div class="about-copy">
-          <h2>Dra. Belen Pera</h2>
-          <p>Egresada de la Facultad de Derecho de la Universidad de la Republica.</p>
-          
-        </div>
-      </article>
-
-      <article class="about-card">
-  <div class="about-photo2" role="img" aria-label="Foto Esc. Milena Barthe">
-    <img src="milena.jpeg" alt="Foto Esc. Milena Barthe">
+    <nav class="menu">
+      <a href="#servicios-juridicos">Servicios Jurídicos</a>
+      <a href="#servicios-notariales">Servicios Notariales</a>
+      <a href="#nosotras">Nosotras</a>
+      <a href="#contacto" class="btn btn-primary">Contacto</a>
+    </nav>
   </div>
-  <div class="about-copy">
-    <h2>Esc. Milena Barthe</h2>
-    <p>Egresada de la Facultad de Derecho de la Universidad de la República.</p>
-    <p>Miembro de la Asociación de Escribanos del Uruguay.</p>
-  </div>
-</article>
+</header>
 
-
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="container hero-inner fade-in">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Confianza, experiencia y respaldo legal</h1>
+        <p>Asesoramiento jurídico y notarial integral para proteger lo que más importa.</p>
+        <a href="#contacto" class="btn btn-primary">Reservar consulta</a>
+      </div>
+      <div class="hero-image">
+        <img src="imagenes/abogadas.jpeg" alt="Equipo de abogadas" />
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FAQ -->
-  <section id="preguntas" class=" section brand-bg">
-    <div class="container">
-      <h2>Preguntas frecuentes</h2>
-      <details class="faq">
+<!-- VALORES -->
+<section id="valores" class="section">
+  <div class="container">
+    <h2 class="fade-in">Por qué elegirnos</h2>
+    <div class="grid fade-in">
+      <div class="card">
+        <h3>Atención personalizada</h3>
+        <p>Cada caso es único y lo tratamos con dedicación absoluta.</p>
+      </div>
+      <div class="card">
+        <h3>Transparencia</h3>
+        <p>Te explicamos todo de forma clara y sin vueltas.</p>
+      </div>
+      <div class="card">
+        <h3>Compromiso</h3>
+        <p>Nos involucramos en cada proceso como si fuera propio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTRAS -->
+<section id="nosotras" class="section">
+  <div class="container">
+    <h2 class="fade-in">Nuestro equipo</h2>
+
+    <div class="team-grid fade-in">
+      <div class="team-card">
+        <img src="imagenes/fotoBelen.jpeg" alt="Dra. Belen Pera">
+        <h3>Dra. Belen Pera</h3>
+        <p>Egresada de la Facultad de Derecho de la Universidad de la Republica.</p>
+      </div>
+
+      <div class="team-card">
+        <img src="imagenes/fotolucia.jpeg" alt="Dra. Lucia Marandino">
+        <h3>Dra. Lucia Marandino</h3>
+        <p>Egresada de la Facultad de Derecho de la Universidad de la Republica.</p>
+      </div>
+
+      <div class="team-card">
+        <img src="imagenes/fotogiannina.jpeg" alt="Dra. Giannina Yarto">
+        <h3>Dra. Giannina Yarto</h3>
+        <p>Egresada de la Facultad de Derecho de la Universidad de la Republica.</p>
+      </div>
+
+      <div class="team-card">
+        <img src="imagenes/milena.jpeg" alt="Esc. Milena Barthe">
+        <h3>Esc. Milena Barthe</h3>
+        <p>Egresada de la Facultad de Derecho de la Universidad de la República.
+            Miembro de la Asociación de Escribanos del Uruguay.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS JURIDICOS -->
+<section id="servicios-juridicos" class="section">
+  <div class="container">
+    <h2 class="fade-in">Servicios Jurídicos</h2>
+    <div class="grid fade-in">
+      <div class="card"><h3>Familia // Familia Especializada</h3><p>Divorcios, uniones concubinarias, tenencia y régimen de visitas, pensiones alimenticias, adopciones, autorización de viaje, medidas urgentes, violencia doméstica, violencia de género, procesos CNA.</p></div>
+      <div class="card"><h3>Civil</h3><p>Sucesiones, contratos, daños y perjuicios, responsabilidad civil, juicios ejecutivos, desalojos y accidentes de tránsito.</p></div>
+      <div class="card"><h3>Laboral</h3><p>Conflictos individuales y colectivos, gestiones ante MTSS, defensa en juicios laborales, negociación y redacción de contratos.</p></div>
+      <div class="card"><h3>Penal</h3><p>Acompañamiento en todo el proceso penal, investigación previa, juicio oral y ejecución de la pena.</p></div>
+      <div class="card"><h3>Administrativo</h3><p>Recursos administrativos, contencioso administrativo, amparos, inconstitucionalidad y gestiones ante la Administración y BPS.</p></div>
+      <div class="card"><h3>Residencias y ciudadanías</h3><p>Residencias MERCOSUR, permanentes y temporarias, identidad, pasaporte, residencia fiscal y ciudadanía.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS NOTARIALES -->
+<section id="servicios-notariales" class="section dark-section">
+  <div class="container">
+    <h2 class="fade-in">Servicios Notariales</h2>
+    <div class="grid fade-in">
+      <div class="card"><h3>Títulos de inmuebles y automotores</h3></div>
+      <div class="card"><h3>Arrendamientos</h3></div>
+      <div class="card"><h3>Hipotecas y prendas</h3><p>Constitución y cancelación, privados e instituciones financieras.</p></div>
+      <div class="card"><h3>Leasing</h3></div>
+      <div class="card"><h3>Sociedades comerciales</h3><p>Constitución, reformas, comunicaciones al BCU, compraventa de acciones.</p></div>
+      <div class="card"><h3>Poderes generales y especiales</h3></div>
+      <div class="card"><h3>Certificados y testimonios</h3></div>
+      <div class="card"><h3>Protocolización de documentos</h3></div>
+      <div class="card"><h3>Sucesiones</h3></div>
+      <div class="card"><h3>Testamentos</h3></div>
+      <div class="card"><h3>Particiones</h3></div>
+      <div class="card"><h3>Cesión de Derechos Hereditarios</h3></div>
+      <div class="card"><h3>Capitulaciones matrimoniales</h3><p>Y convenciones concubinarias.</p></div>
+      <div class="card"><h3>Reglamento de Copropiedad</h3></div>
+      <div class="card"><h3>Contratos en general</h3></div>
+      <div class="card"><h3>Legalizaciones de documentos</h3></div>
+      <div class="card"><h3>Actas notariales</h3><p>Notificaciones, constataciones, intimaciones y sorteos.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section alt">
+  <div class="container">
+    <h2 class="fade-in">Preguntas frecuentes</h2>
+    <div class="faq" style="max-width:850px; margin:auto; text-align:left;">
+      <details class="fade-in">
         <summary>¿Qué documentación necesito para empezar?</summary>
         <p>No te preocupes, en la primera consulta te indicamos exactamente qué documentos vas a necesitar según tu caso.</p>
       </details>
-      <details class="faq">
+      <details class="fade-in">
         <summary>¿Cómo se pactan los honorarios?</summary>
-        <p>Los honorarios se fijan luego de la primera consulta, de acuerdo a la complejidad y características de tu trámite.</p>
+        <p>Los honorarios se fijan luego de la primera consulta, de acuerdo a la complejidad y características de tu trámite.</p>
       </details>
-      <details class="faq">
+      <details class="fade-in">
         <summary>¿Trabajan de forma online?</summary>
-        <p>Sí. Atendemos de forma presencial en nuestras oficinas y también ofrecemos atención online para mayor comodidad.</p>
+        <p>Sí. Atendemos de forma presencial en nuestras oficinas y también ofrecemos atención online para mayor comodidad.</p>
       </details>
-      <details class="faq">
+      <details class="fade-in">
         <summary>¿En cuánto tiempo obtengo una respuesta?</summary>
         <p>Respondemos tu consulta a la brevedad, generalmente dentro de las 24 horas hábiles.</p>
       </details>
-      <details class="faq">
+      <details class="fade-in">
         <summary>¿Puedo agendar una consulta sin compromiso?</summary>
-        <p>Sí, podés coordinar una primera entrevista para analizar tu caso y recibir orientación inicial.</p>
+        <p>Sí, podés coordinar una primera entrevista para analizar tu caso y recibir orientación inicial.</p>
       </details>
-      <details class="faq">
+      <details class="fade-in">
         <summary>¿Qué diferencia hay entre abogado y escribano?</summary>
-        <p>El abogado se especializa en la defensa de derechos y la resolución de conflictos, mientras que el escribano se centra en dar fe, redactar y formalizar documentos legales.
-           Ambos roles se complementan para brindarte un servicio integral.</p>
+        <p>El abogado se especializa en defensa de derechos y resolución de conflictos, mientras que el escribano da fe, redacta y formaliza documentos legales.</p>
       </details>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contacto -->
-  <section id="contacto" class="section beige">
-    <div class="container contact">
-      <div class="contact-copy">
-        <h2>Contacto</h2>
-        <p>Contanos tu consulta y te respondemos a la brevedad.</p>
-        <ul class="list">
-  <li>
-    📍 <strong>Canelones</strong>
-    <ul>
-      <li>Torres Garcia 627, Las Piedras</li>
-    </ul>
-  </li>
-  <li>
-    📍 <strong>Montevideo</strong>
-    <ul>
-      <li>Gaboto esq. Constituyente, Centro</li>
-    </ul>
-  </li>
-  <li>📞 Dra. Belen Pera: <a href="tel:+59894304856">+598 94 304 856</a></li>
-  <li>📞 Esc. Milena Barthe: <a href="tel:+59899919386">+598 99 919 386</a></li>
-  <li>✉️ Emails: <a href="mailto:abogadapera@gmail.com">abogadapera@gmail.com</a> / <a href="mailto:escribanabarthe@gmail.com">escribanabarthe@gmail.com</a></li>
-  <li>🕒 Horario: L–V 9:00 a 18:00</li>
-</ul>
+<!-- CTA -->
+<section class="cta">
+  <div class="container fade-in">
+    <h2>¿Necesitás asesoramiento?</h2>
+    <p>Contactanos hoy mismo y resolvé tu situación con respaldo profesional.</p>
+    <a href="#contacto" class="btn btn-primary">Contactar ahora</a>
+  </div>
+</section>
 
+<!-- CONTACTO -->
+<section id="contacto" class="section contact">
+  <div class="container fade-in">
+    <h2>Contacto</h2>
+    <p>Respondemos dentro de 24 horas hábiles</p>
+
+    <div class="contact-grid">
+
+      <div class="contact-box">
+        <ul class="contact-list">
+          <li>📍 <strong>Canelones</strong>
+            <ul>
+              <li>Torres García 627, Las Piedras</li>
+            </ul>
+          </li>
+          <li>📍 <strong>Montevideo</strong>
+            <ul>
+              <li>Gaboto esq. Constituyente, Centro</li>
+              <li>Cerrito 517, Centro</li>
+            </ul>
+          </li>
+          <li>📞 Dra. Belen Pera: <a href="tel:+59894304856">+598 94 304 856</a></li>
+          <li>📞 Esc. Milena Barthe: <a href="tel:+59899919386">+598 99 919 386</a></li>
+          <li>✉️ Email: <a href="mailto:ypm.abogadas@gmail.com">ypm.abogadas@gmail.com / escribanabarthe@gmail.com</a></li>
+          <li>🕒 Horario: L–V 9:00 a 18:00</li>
+        </ul>
       </div>
-    
-      <!-- <form class="form" action="#" method="post">
-        <label>Nombre
-          <input type="text" name="nombre" placeholder="Tu nombre" required>
-        </label>
-        <label>Email
-          <input type="email" name="email" placeholder="tu@correo.com" required>
-        </label>
-        <label>Mensaje
-          <textarea name="mensaje" rows="5" placeholder="Escribí tu consulta..." required></textarea>
-        </label>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-        
-      </form> -->
+
+      <form class="form" onsubmit="enviarWhatsApp(event)">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="tel" id="telefono" placeholder="Tu teléfono" required>
+        <textarea id="mensaje" placeholder="Escribí tu consulta..." required></textarea>
+
+        <button type="submit" class="btn btn-primary">
+          Enviar consulta
+        </button>
+      </form>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer section brand-bg">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Estudio Jurídico & Notarial – Pera & Barthe. Todos los derechos reservados.</p>
-      <a href="#inicio" class="to-top" aria-label="Volver arriba">↑</a>
-    </div>
-  </footer>
+<a href="https://wa.me/59894304856" class="whatsapp" target="_blank" aria-label="Contacto WhatsApp">💬</a>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<footer class="footer">
+  <p>© 2026 Estudio Jurídico & Notarial</p>
+  <a href="#inicio" class="to-top" aria-label="Volver arriba">↑</a>
+</footer>
+
+<script src="codigo.js"></script>
 </body>
 </html>
