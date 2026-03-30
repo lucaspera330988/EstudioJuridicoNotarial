@@ -30,3 +30,13 @@ Consulta: ${mensaje}`;
 
   window.open(url, "_blank");
 }
+
+// MENU HAMBURGUESA
+const burgerBtn = document.getElementById("burgerBtn");
+const navBar = document.getElementById("navBar");
+
+if (burgerBtn && navBar) {
+  burgerBtn.addEventListener("click", () => {
+    navBar.classList.toggle("open");
+  });
+}

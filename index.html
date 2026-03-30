@@ -13,16 +13,18 @@
 <body>
 
 <header class="header">
-  <div class="container nav">
+  <div class="container nav" id="navBar">
     <div class="brand">
-      <img src="imagenes/logoGrande.jpeg" class="logo-img"/>
-      <div>
+      <img src="imagenes/logoGrande.jpeg" class="logo-img" alt="Logo Estudio" />
+      <div class="brand-text">
         <span class="brand-title">Estudio Jurídico & Notarial</span>
         <span class="brand-subtitle">Pera · Marandino · Yarto · Barthe</span>
       </div>
     </div>
 
-    <nav class="menu">
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú">☰</button>
+
+    <nav class="menu" id="mainMenu">
       <a href="#servicios-juridicos">Servicios Jurídicos</a>
       <a href="#servicios-notariales">Servicios Notariales</a>
       <a href="#nosotras">Nosotras</a>
